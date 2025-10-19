@@ -9,7 +9,7 @@ from tkinter import messagebox, ttk
 import speech_recognition as sr
 
 # --- Load Supported Languages ---
-languages = lang.tts_langs()
+languages = lang.tts_langs() 
 language_names = list(languages.values())
 
 # --- Functions ---
